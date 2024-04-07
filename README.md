@@ -1,4 +1,4 @@
-# [My Website](https://www.johnpstroud.github.io)
+# [My Website](https://johnpstroud.github.io)
 
 This python program utilizes the FPDF package to create an up to date cover letter that I can generate with every position that I apply to. 
 This personal project is mostly to programmatically automate something in my daily life as a challenge which I enjoyed doing.
