@@ -5,6 +5,6 @@ This personal project is mostly to programmatically automate something in my dai
 
 I made this modular so it can be updated easily to the newest version of my cover letter and still allow me to keep the date automatic as well as fill in certain details with each generation.
 
-To run the program execute it on the command line with arguments being fed in one by one: 
+To run the program execute it on the command line with each additional argument being a word of the job title: 
 
 `py ".\Cover Letter Generator.py" Junior Level Software Developer`
