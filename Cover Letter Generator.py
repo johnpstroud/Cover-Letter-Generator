@@ -3,7 +3,7 @@ from fpdf import FPDF
 import sys
 
 # Used to get current day for each generated Cover Letter
-def GetDate():
+def getDate():
     date = datetime.today()
     # Desired format Month Day, Year
     return date.strftime("%B %#d, %Y")
@@ -57,7 +57,7 @@ def main(position):
 
 
     # Main Body
-    pdf.newLine(GetDate())
+    pdf.newLine(getDate())
     pdf.newLine("Dear Hiring Manager")
     pdf.newLine("I am writing to inquire about the opening for the " + position + "position.")
     pdf.newLine("I offer a bachelors in computer science and a security based web development internship which makes me a strong candidate for this opening. "
